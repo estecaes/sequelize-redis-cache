@@ -51,6 +51,18 @@ cacheObj.query('SELECT * FROM widgets LIMIT 10')
 
 ```
 
+Create a query with a cache custom key and clear that specific query in cache:
+
+```javascript
+var cacheObj = cacher(db, rc)
+cacheObj.find({cacheKey:"my-custom-key", where: { id: 3 } })
+  .then(function(row) {
+    console.log(row);
+  });
+
+cacheObj.clearCache(cacheKey:"my-custom-key")
+```
+
 Check the tests out for more info, but it's pretty simple.  The currently supported
 methods are:
 
