@@ -60,7 +60,7 @@ cacheObj.find({cacheKey:"my-custom-key", where: { id: 3 } })
     console.log(row);
   });
 
-cacheObj.clearCache(cacheKey:"my-custom-key")
+cacheObj.clearCache({cacheKey:"my-custom-key"})
 ```
 
 Check the tests out for more info, but it's pretty simple.  The currently supported
