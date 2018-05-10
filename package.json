@@ -1,14 +1,14 @@
 {
-  "name": "sequelize-redis-cache",
-  "version": "2.0.1",
+  "name": "sequelize-redis-cache-estecaes",
+  "version": "2.0.2",
   "description": "Caching module for sequelize queries",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --timeout=5000 --require should test/**/*.js"
+    "test": "mocha --timeout=5000 --require should test/**/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rfink/sequelize-redis-cache.git"
+    "url": "git+https://github.com/estecaes/sequelize-redis-cache.git"
   },
   "keywords": [
     "sequelize",
@@ -18,7 +18,7 @@
     "postgres",
     "sqlite"
   ],
-  "author": "Ryan Fink <ryanjfink@gmail.com>",
+  "author": "Esteban Castro <estecaes@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "mocha": "2.5.3",
@@ -27,8 +27,19 @@
     "should": "10.0.0",
     "sqlite3": "~3.1.0"
   },
+  "contributors": [
+    "Ryan Fink <ryanjfink@gmail.com>"
+  ],
   "dependencies": {
     "bluebird": "3.4.1",
     "circular-json": "0.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/estecaes/sequelize-redis-cache/issues"
+  },
+  "homepage": "https://github.com/estecaes/sequelize-redis-cache#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
