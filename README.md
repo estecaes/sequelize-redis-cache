@@ -55,7 +55,7 @@ Create a query with a cache custom key and clear that specific query in cache:
 
 ```javascript
 var cacheObj = cacher(db, rc)
-cacheObj.find({cacheKey:"my-custom-key", where: { id: 3 } })
+cacheObj.find({cacheKey:"my-custom-key", where: { id: 4 } })
   .then(function(row) {
     console.log(row);
   });
