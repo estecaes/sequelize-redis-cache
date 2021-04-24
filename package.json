@@ -1,6 +1,6 @@
 {
   "name": "sequelize-redis-cache-estecaes",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Caching module for sequelize queries",
   "main": "lib/index.js",
   "scripts": {
@@ -21,17 +21,17 @@
   "author": "Esteban Castro <estecaes@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "2.5.3",
+    "mocha": "8.3.2",
     "redis": "~3.1.2",
     "sequelize": "~6.6.2",
-    "should": "10.0.0",
-    "sqlite3": "~3.1.0"
+    "should": "13.2.3",
+    "sqlite3": "~5.0.2"
   },
   "contributors": [
     "Ryan Fink <ryanjfink@gmail.com>"
   ],
   "dependencies": {
-    "bluebird": "3.4.1",
+    "bluebird": "3.7.2",
     "circular-json": "0.3.0"
   },
   "bugs": {
